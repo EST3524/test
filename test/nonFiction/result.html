@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="style_nonFiction.css"> 
   
   <script src="script_nonFiction.js"></script>
+  <style>
+    /* 버튼을 중앙에 배치하기 위한 스타일 */
+    .button-center-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24px;
+    }
+  </style>
 </head>
 <body onload="loadResult()">
 
@@ -34,14 +43,15 @@
       </p>
     </div>
     
-    <div class="button-container">
-
+    <div class="button-center-wrapper">
       <button class="start-button" onclick="onStart(); window.location.href='index.html';">
         <span class="icon">👉</span> 다시 테스트하기
       </button>
-      
     </div>
   </div>
 
 </body>
 </html>
+
+
+
