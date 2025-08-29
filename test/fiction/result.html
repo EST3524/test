@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="style_fiction.css"> 
   
   <script src="script_fiction.js"></script>
+  <style>
+    /* 버튼을 중앙에 배치하기 위한 스타일 */
+    .button-center-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24px;
+    }
+  </style>
 </head>
 <body onload="loadResult()">
 
@@ -33,9 +42,12 @@
         <strong>고전:</strong> <span id="recommend-classic"></span>
       </p>
     </div>
-    <button class="start-button" onclick="onStart(); window.location.href='index.html';">
-      <span class="icon">👉</span> 다시 테스트하기
-    </button>
+    
+    <div class="button-center-wrapper">
+      <button class="start-button" onclick="onStart(); window.location.href='index.html';">
+        <span class="icon">👉</span> 다시 테스트하기
+      </button>
+    </div>
   </div>
 
 </body>
