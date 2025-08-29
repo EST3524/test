@@ -161,4 +161,20 @@ button:hover {
     font-size: 1.1em;
     line-height: 1.8;
     margin: 5px 0; /* 위아래 약간의 여백 */
+
+}
+
+.button-center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.start-button {
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
 }
