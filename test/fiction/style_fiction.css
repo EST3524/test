@@ -162,21 +162,17 @@ button:hover {
     line-height: 1.8;
     margin: 5px 0; /* 위아래 약간의 여백 */
 }
-
-/* 버튼을 화면 가운데로 정렬하기 위한 컨테이너 */
-.button-container {
-  width: 100%; /* 너비를 100%로 설정 */
+.button-center-wrapper {
   display: flex;
-  justify-content: center; /* 내부 요소를 수평 중앙 정렬 */
-  margin-top: 20px; /* 버튼 위에 적절한 여백 추가 */
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  width: 100%;
 }
 
-/* 버튼 내부의 텍스트와 아이콘을 가운데 정렬 */
 .start-button {
-  /* 기존의 padding, font-size, background-color 등은 그대로 둡니다. */
-
-  /* 아래 3줄을 추가하거나 수정하세요. */
-  display: flex; /* Flexbox 레이아웃 사용 */
-  justify-content: center; /* 내부 요소를 수평 중앙 정렬 */
-  align-items: center; /* 내부 요소를 수직 중앙 정렬 */
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
 }
